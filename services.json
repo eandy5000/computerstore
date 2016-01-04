@@ -1,0 +1,28 @@
+[
+
+  { "id" : 1,
+    "name":"Hardware Repair",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "image" : "computer-icon.png"
+  },
+
+  { "id" : 2,
+    "name":"Virus Removal",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "image" : "computer-icon.png"
+  },
+
+  { "id" : 3,
+    "name":"System Tune-Up",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "image" : "computer-icon.png"
+  },
+
+  { "id" : 4,
+    "name":"Custom Builds",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "image" : "computer-icon.png"
+  }
+
+
+]

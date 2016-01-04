@@ -7,24 +7,16 @@
             <h2>Contact</h2>
             <p>Please email support@computersolutions.fake</p>
             <h3>Locations</h3>
-            <ul class="location">
-                <li>Lynn Location</li>
-                <li>333 Walnut st</li>
-                <li>Lynn MA, 01902</li>
-                <li>781-555-5555</li>
-            </ul>
-            <ul class="location">
-                <li>Amesbury Location</li>
-                <li>22 School st</li>
-                <li>Amesbury MA, 01913</li>
-                <li>978-555-5555</li>
-            </ul>
-            <ul class="location">
-                <li>Boston Location</li>
-                <li>36 Mass ave</li>
-                <li>Boston MA, 01919</li>
-                <li>617-555-5555</li>
-            </ul>
+
+            <div ng-repeat="location in locations">
+                <ul class="location">
+                    <li><h4>{{location.name}}</h4></li>
+                    <li><p>{{location.description}}</p></li>
+                    <li><em>{{location.phone}}</em></li>
+                </ul>
+            </div>
+
+
         </div>
     </div>
 

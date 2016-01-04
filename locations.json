@@ -1,0 +1,28 @@
+[
+
+  { "id" : 1,
+    "name":"Bloomington",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "phone" : "777-111-1234"
+  },
+
+  { "id" : 2,
+    "name":"Blaine",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "phone" : "777-111-1235"
+  },
+
+  { "id" : 3,
+    "name":"Minneapolis",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "phone" : "777-111-1236"
+  },
+
+  { "id" : 4,
+    "name":"Duluth",
+    "description":"Element logistically floating-point bypass high sequential, scalar extended, cable developer cable software transistorized reflective servicing. Computer normalizing, arrray distributed bridgeware software bus pulse generator processor developer broadband logistically scan. Cache audio ",
+    "phone" : "777-111-1237"
+  }
+
+
+]

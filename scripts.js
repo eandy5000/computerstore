@@ -23,15 +23,29 @@ app.config(['$routeProvider', function($routeProvider){
 
 }]);
 
-app.controller('MainCtrl',['$scope', function($scope){
-    console.log('main ctrl');
+app.controller('MainCtrl',['$scope','$http', function($scope, $http){
+    $http.get('services.json').then(function(response){
+        console.log(response.data);
+
+        $scope.services = response.data;
+    })
 }]);
 
-app.controller('ContactCtrl',['$scope', function($scope){
-    console.log('contact ctrl');
+
+
+app.controller('ServicesCtrl',['$scope', '$http', function($scope, $http){
+    $http.get('services.json').then(function(response){
+        console.log(response.data);
+
+        $scope.services = response.data;
+    })
 }]);
 
-app.controller('ServicesCtrl',['$scope', function($scope){
-    console.log("serv ctrl");
+app.controller('ContactCtrl',['$scope', '$http', function($scope, $http){
+    $http.get('locations.json').then(function(response){
+        console.log(response.data);
+
+        $scope.locations = response.data;
+    })
 }]);
 
